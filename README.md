@@ -5,8 +5,10 @@ Create a new Repository on the command line
 - git add readme.md
 - git commit -m "first commit"
 - git remote add origin https://github.com/Harveybegood/javascriptfordevelopers.git
+- or git remote add origin git@github.com:harveybegood/javascriptfordevelopers.git
 - git push -u origin master
 
 Push an existing reposiroty from the command line
 - git remote add origin https://github.com/harveybegood/javascriptfordevelopers.git
+- or git remote add origin git@github.com:harveybegood/javascriptfordevelopers.git
 - git push -u origin master
