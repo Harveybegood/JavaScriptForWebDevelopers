@@ -5,6 +5,7 @@
 ```javascript
   var EventUtil = {
     addHandler: function(element, type, handler){
+    // element -> the element that is passed in, type -> the type of the element such as click, false -> indicate the bubbling phase
       if(element.addEventListener){
         element.addEventHandler(type, handler, false);
       }else if(element.attachEvent){
